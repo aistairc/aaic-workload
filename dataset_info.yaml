@@ -1,0 +1,53 @@
+
+Name: AAIC Workload
+
+Description: This is a workload set of jobs run in GPU node queues of AIST
+  Artificial Intelligence Cloud (AAIC).  As AAIC is dedicatedly used
+  for AI research, many jobs in the workload are expected to be run
+  for training deep learning applications.
+  The workload contains jobs submitted from July 14th, 2017 do December
+  31st, 2018.
+
+Keywords:
+    - job scheduling
+    - workload
+    - deep learning
+
+UsageInfo: https://github.com/aistairc/aaic-workload/
+
+Distribution:
+  EncodingFormat: CSV
+  ContentURL:
+    - https://airc-aaic-workload.s3.abci.ai/workloads/annual/aaicwl-201707-201806.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/annual/aaicwl-201807-201812.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2017/aaicwl-2017Q3.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2017/aaicwl-2017Q4.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2018/aaicwl-2018Q1.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2018/aaicwl-2018Q2.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2018/aaicwl-2018Q3.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/quarter/2018/aaicwl-2018Q4.csv.gz
+    - https://airc-aaic-workload.s3.abci.ai/workloads/other/aaicwl-hpc170.csv.gz
+
+Creator:
+  Name: Artificial Intelligence Cloud Research Team, AIRC, AIST
+  URL: https://www.airc.aist.go.jp/aiprt/
+  ContactPoint:
+    Email: shinichiro.takizawa@aist.go.jp
+
+License:
+  Name: Custom License
+  URL: https://github.com/aistairc/aaic-workload/
+
+Version: "1.0"
+
+DateCreated: 2019-06-26
+
+DateModified: 2021-04-23
+
+DatePublished: 2019-06-26
+
+Identifier:
+
+Citation:
+  - 滝澤 真一朗, 小川 宏高, 高野 了成, 大規模GPUクラスタにおける深層学習ワークロードの 傾向把握, 第170回ハイパフォーマンスコンピューティング研究会, July, 2019.
+  - Shinichiro Takizawa, Ryousei Takano. Effect of an Incentive Implementation for Specifying Accurate Walltime in Job Scheduling. Proceedings of the International Conference on High Performance Computing in Asia-Pacific Region (HPCAsia2020), Jan. 2020.
