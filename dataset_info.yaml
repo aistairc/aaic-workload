@@ -5,7 +5,7 @@ Description: This is a workload set of jobs run in GPU node queues of AIST
   Artificial Intelligence Cloud (AAIC).  As AAIC is dedicatedly used
   for AI research, many jobs in the workload are expected to be run
   for training deep learning applications.
-  The workload contains jobs submitted from July 14th, 2017 do December
+  The workload contains jobs submitted from July 14th, 2017 to December
   31st, 2018.
 
 Keywords:
