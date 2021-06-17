@@ -133,6 +133,12 @@ The workload files are also published on [ABCI Datasets](https://datasets.abci.a
 You can directly download files by HTTPS from the datasets page.
 
 
+## Examples
+
+You can find example machine learning models that use AAIC workload in
+`models` directory.
+
+
 ## Usage and Acknowledgment
 
 AAIC workload is copyrighted by AIST, National Institute of Advanced Industrial
