@@ -37,7 +37,9 @@ Experiment tracking records and models are saved in the current directory under 
 You can access records and models by invoking MLflow tracking UI (type `mlflow ui`).
 
 
-## Run using MLflow CLI
+## Train
+
+### Run Using MLflow CLI
 
 Typing the following command in the current directory runs `train.py` to train a model with default parameters.
 
@@ -58,8 +60,7 @@ If you have Anaconda installed and want to create an Anaconda environment to run
 $ mlflow run .
 ```
 
-
-## Run Training Script Directly
+### Run Training Script Directly
 
 You can directly execute the Python training script as follows.
 Parameters are `workload`, `learning_rate`, `max_depth` and `n_estimators` in this order.
@@ -69,3 +70,14 @@ $ python train.py aaicwl-2018Q1.csv 0.3 6 100
 ```
 
 The following command also records training metrics and models but does not record training parameters in MLflow tracking server.
+
+
+## Use Model to Predict
+
+`use_model.py` is a sample program that uses a trained model to predict walltime of a job.
+To use the program, you need to create a model by following one of instructions described in `Train` and then prepare a new workload by following the instruction in `Setup`.
+Once you prepare these two files, run the program as follows.
+
+```Console
+$ python use_model.py model.xgb aaicwl-2018Q2.csv
+```
