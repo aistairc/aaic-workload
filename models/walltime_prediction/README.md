@@ -5,6 +5,12 @@ This project creates a model for predicting walltime of jobs.
 
 The directory is formatted in MLflow Project format.
 
+It is tested with the following software versions.
+
+- DVC: 3.16.0
+- MLflow: 2.6.0
+- XGBoost: 1.7.6
+
 
 ## Setup
 
@@ -44,21 +50,16 @@ You can access records and models by invoking MLflow tracking UI (type `mlflow u
 Typing the following command in the current directory runs `train.py` to train a model with default parameters.
 
 ```Console
-$ mlflow run . --no-conda
+$ mlflow run . --env-manager local
 ```
 
 To change parameters, run as follows.
 Parameters are `workload`, `learning_rate`, `max_depth` and `n_estimators`.
 
 ```Console
-$ mlflow run . --no-conda -P learning_rate=0.01
+$ mlflow run . --env-manager local -P learning_rate=0.01
 ```
 
-If you have Anaconda installed and want to create an Anaconda environment to run the program, type as follow.
-
-```Console
-$ mlflow run .
-```
 
 ### Run Training Script Directly
 

@@ -1,6 +1,7 @@
-dvc==2.3.0
-matplotlib==3.3.4
+boto3
+dvc
+matplotlib
 mlflow
-pandas==1.1.5
-scikit-learn==0.24.2
-xgboost==1.4.2
+pandas
+scikit-learn
+xgboost
